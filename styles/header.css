@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+  .header__add__images {
+    @apply h-3 sm:h-6;
+  }
+  .img__reltors {
+    @apply h-14 rounded-full border border-[#ca9a63];
+  }
+
+  .rel__container {
+    @apply space-y-9 mt-5;
+  }
+
+  .rel__items {
+    @apply flex items-center space-x-5;
+  }
+  .rel__info {
+  }
+
+  .rel__title {
+    @apply text-xl text-gray-300 font-semibold;
+  }
+  .rel__subtitle {
+    @apply text-sm text-gray-500 uppercase;
+  }
+}
