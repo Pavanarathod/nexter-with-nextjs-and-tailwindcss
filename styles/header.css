@@ -9,7 +9,7 @@
   }
 
   .rel__container {
-    @apply space-y-9 mt-5;
+    @apply space-y-5 sm:space-y-0 sm:space-x-5 mt-5 sm:flex lg:space-x-0 lg:space-y-10 lg:flex-col lg:mr-3;
   }
 
   .rel__items {

@@ -1,7 +1,6 @@
 const Header = () => {
   return (
     <header
-      className="min-h-screen"
       style={{
         backgroundSize: "cover",
         backgroundImage:
@@ -10,7 +9,7 @@ const Header = () => {
         height: "100vh",
       }}
     >
-      <main className="max-w-7xl mx-auto lg:grid lg:grid-cols-2 h-full">
+      <div className="max-w-7xl mx-auto lg:grid lg:grid-cols-2 h-full">
         <div className="flex flex-col justify-between h-full">
           <div className="flex justify-center sm:justify-start py-3">
             <img src="/images/logo.png" alt="" className="h-10" />
@@ -93,13 +92,13 @@ const Header = () => {
                   <p className="rel__subtitle">245 house hold</p>
                 </div>
               </div>
-              <button className="px-5 py-2 rounded-full font-mono text-white bg-[#ca9a63]">
+              <button className=" hidden lg:block px-5 py-2 rounded-full font-mono text-white bg-[#ca9a63]">
                 More
               </button>
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </header>
   );
 };

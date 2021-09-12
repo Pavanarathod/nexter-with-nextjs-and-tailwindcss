@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .feature__icon {
+    @apply h-10 text-red-400;
+  }
+}
