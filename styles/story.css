@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .story__container {
+    @apply py-5 sm:py-0 sm:pb-5 sm:flex sm:h-[50vh] lg:h-[70vh] sm:justify-between sm:flex-row-reverse;
+  }
+}

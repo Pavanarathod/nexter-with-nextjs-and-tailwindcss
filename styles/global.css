@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+  .primary__color {
+    @apply bg-[#ca9a63];
+  }
+  .primary__text {
+    @apply text-[#eb9737];
+  }
+}
