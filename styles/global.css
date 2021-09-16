@@ -2,7 +2,7 @@
 
 @layer components {
   .primary__color {
-    @apply bg-[#ca9a63];
+    @apply bg-[#ca9a63] hover:bg-[#e2a55f];
   }
   .primary__text {
     @apply text-[#eb9737];

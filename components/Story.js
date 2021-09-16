@@ -14,7 +14,7 @@ const Story = () => {
             suscipit, quisquam praesentium dolores veniam!
           </p>
 
-          <button className="px-7 py-2 uppercase font-sans primary__color text-white">
+          <button className="px-7 py-4 uppercase font-sans primary__color text-white">
             Find your own home
           </button>
         </div>
@@ -30,11 +30,15 @@ const Story = () => {
         }}
       >
         <div className="grid place-items-center h-full relative">
-          <img src="/images/story-1.jpeg" alt="" className="h-52 lg:h-72" />
+          <img
+            src="/images/story-1.jpeg"
+            alt=""
+            className="h-52 lg:h-72 shadow-xl"
+          />
           <img
             src="/images/story-2.jpeg"
             alt=""
-            className="hidden lg:block h-52 lg:h-52 absolute top-60 left-80 z-50"
+            className="hidden lg:block h-52 lg:h-52 absolute top-60 left-80 z-50 shadow-2xl"
           />
         </div>
       </div>
