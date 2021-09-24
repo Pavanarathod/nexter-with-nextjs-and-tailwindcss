@@ -77,7 +77,7 @@ const Header = () => {
                   className="img__reltors"
                 />
                 <div className="rel__info">
-                  <h1 className="rel__title">Erik Fenimon</h1>
+                  <h1 className="rel__title">Mona Lisa Am</h1>
                   <p className="rel__subtitle">245 house hold</p>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Header = () => {
                   className="img__reltors"
                 />
                 <div className="rel__info">
-                  <h1 className="rel__title">Erik Fenimon</h1>
+                  <h1 className="rel__title">Marlon Brando</h1>
                   <p className="rel__subtitle">245 house hold</p>
                 </div>
               </div>
